@@ -14,14 +14,15 @@ function StarBackground(props: any) {
     inSphere(new Float32Array(props.value ?? 5001), { radius: 1.2 }),
   );
 
-  useFrame((state, delta) => {
-    ref.current.rotation.x -= delta / 50;
-    ref.current.rotation.y -= delta / 15;
-  });
+  useFrame((_state, delta) => {
+  ref.current.rotation.x -= delta / 50;
+  ref.current.rotation.y -= delta / 15;
+});
+
 
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
-      <Points ref={ref} positions={sphere} stride={3} frustumCulled classname="text-foreground" {...props}>
+      <Points ref={ref} positions={sphere} stride={3} frustumCulled className="text-foreground" {...props}>
         <PointMaterial
           transparent
           color="#ffffff"
