@@ -1,6 +1,6 @@
 import { FileHtml, FileJs, FileTs, Database, GithubLogo, FigmaLogo, Coffee } from "phosphor-react"
 import Docker from "../assets/Docker.svg";
-import Nextjs from "../assets/nextjs.svg";
+import Nextjs from "../assets/Nextjs.svg";
 import NodeJs from "../assets/NodeJs.svg"
 import TailWind from "../assets/Tailwind.svg"
 import Golang from "../assets/Golang.svg"
