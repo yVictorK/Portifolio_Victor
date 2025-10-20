@@ -6,14 +6,12 @@ import { NavBar } from "../components/NavBar"
 import { ProjectsSection } from "../components/ProjectsSection"
 import { SkillsSection } from "../components/SkillsSection"
 import { Meteors } from "../components/MeteorBackground"
-import { ThemeToggle } from "../components/ThemeToggle"
 import { StarsCanvas } from "../components/StarBackground"
 import { ScrollFadeIn } from "../components/ScrollFadeIn"
 
 export const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-      <ThemeToggle />
       <StarsCanvas className="absolute inset-0 z-0" value={5000} />
       <Meteors />
       <NavBar />
