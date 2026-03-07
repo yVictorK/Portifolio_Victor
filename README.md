@@ -1,73 +1,108 @@
-# React + TypeScript + Vite
+# Victor Kossmann – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website created to present my projects, technical skills, and experience in software development. The website serves as a central place where visitors can explore the projects I have built and the technologies I work with.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a personal developer portfolio designed to showcase my work, skills, and projects in web development.
 
-## React Compiler
+The website presents information about me as a developer, the technologies I use, and a collection of projects that demonstrate my knowledge and practical experience. Each project highlights different aspects of development such as interface design, application structure, and implementation of programming concepts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The portfolio was created to provide a simple and clear way for recruiters, developers, and visitors to explore my work and understand the technologies I use.
 
-## Expanding the ESLint configuration
+It also serves as a continuously evolving project where new projects, improvements, and skills can be added over time.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Demo
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Application Preview
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+![Portifolio3](https://github.com/user-attachments/assets/b0ded79a-67e4-44fa-973a-8745aac360ab)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+
+
+## Portfolio Sections
+
+The website is organized into multiple sections that present information about my work and development background.
+
+**Home**
+
+- The main section introduces the portfolio and presents a brief overview of who I am as a developer.
+
+**About**
+
+- Provides information about my background, interests in technology, and development journey.
+
+**Skills**
+
+- Displays the technologies and tools that I use in software development.
+
+**Projects**
+
+- A showcase of projects I have developed, including links to their respective GitHub repositories.
+
+**Contact**
+
+- Provides ways to connect with me and access my professional profiles.
+
+
+## Features
+
+- Personal introduction section
+- Technical skills presentation
+- Projects showcase
+- Links to project repositories
+- Responsive layout
+- Clean and simple interface design
+- Navigation between sections of the portfolio
+
+
+## Technologies Used
+
+This project was developed using the following technologies:
+
+- React
+- Vite.js
+- Typescript
+- TailwindCSS
+- Git
+- GitHub
+- Vercel (deployment)
+
+
+## Live Demo
+
+The portfolio is available online:
+
+Website:  
+https://victorkossmann.vercel.app/
+
+
+## How to Run the Project Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yVictorK/Portifolio_Victor.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Navigate to the project folder
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd Portifolio_Victor
 ```
+
+### 3. Open the project
+
+```bash
+npm run dev
+```
+
+
+## Educational Purpose
+
+This portfolio is part of my personal learning journey in software development. It was built to practice web development concepts and to provide a platform where I can present my projects and continuously improve my skills.
+
+
+## Author
+
+Victor Kossmann
