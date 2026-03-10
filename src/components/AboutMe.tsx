@@ -24,7 +24,7 @@ export const About = () => {
                 </p>
 
                 <p className="text-foreground">
-                  Tenho grande interesse em Desenvolvimento Front-End, criando sites e aplicativos (Web e Mobile)
+                  Tenho grande interesse em Desenvolvimento de Software, criando sites e aplicativos (Web e Mobile)
                   acessíveis, responsivos e otimizados. Trabalho utilizando frameworks modernos para entregar softwares
                   funcionais e sempre atualizados.
                 </p>
