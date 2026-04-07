@@ -3,11 +3,20 @@ import { ArrowRight, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Projeto Pomodoro",
-    description: "Um contador pomodoro, com histório dos ciclos realizados. Utilizando conceitos de componentização, rotas e validação de formulários",
-    image: "/projects/pomodoro.png",
-    tags: ["React", "Styled-components", "TypeScript", "Hook-Form", "Git"],
-    githubUrl: "https://github.com/yVictorK/ProjetoPomodoro",
+    title: "UForum - Rede Social Acadêmica",
+    description: "Uma rede social acadêmica completa para a UFAM, com comunidades, eventos e marketplace integrado. Permite interação entre alunos, acesso ao mapa do campus e negociação de produtos",
+    image: "/projects/uforum.png",
+    tags: [
+      "React",
+      "TypeScript",
+      "NextJS",
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "Docker",
+      "Git"
+    ],
+    githubUrl: "https://github.com/yVictorK/uforum",
   },
   {
     id: 2,
